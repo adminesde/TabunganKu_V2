@@ -1,13 +1,4 @@
 {
-  "name": "tabunganku-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-alert-dialog": "^1.1.14",
@@ -26,7 +17,7 @@
     "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
     "html2canvas": "^1.4.1",
-    "jspdf": "^2.5.1",
+    "jspdf": "^3.0.1",
     "jspdf-autotable": "^3.8.2",
     "lucide-react": "^0.511.0",
     "next": "15.3.4",
