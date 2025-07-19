@@ -1,0 +1,2 @@
+ALTER POLICY "Teachers can insert their students' transactions." ON public.transactions
+WITH CHECK (EXISTS (SELECT 1 FROM public.students WHERE students.id = transactions.student_id AND students.teacher_id = auth.uid()));

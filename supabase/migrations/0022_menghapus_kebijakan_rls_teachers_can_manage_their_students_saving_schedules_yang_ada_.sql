@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "Teachers can manage their students' saving schedules." ON public.saving_schedules;

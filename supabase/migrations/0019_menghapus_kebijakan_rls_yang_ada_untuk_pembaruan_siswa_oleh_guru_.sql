@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "Teachers can update their own students." ON public.students;

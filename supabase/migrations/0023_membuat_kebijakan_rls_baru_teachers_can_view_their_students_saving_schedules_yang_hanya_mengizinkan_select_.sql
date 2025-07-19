@@ -1,0 +1,2 @@
+CREATE POLICY "Teachers can view their students' saving schedules." ON public.saving_schedules
+FOR SELECT USING (EXISTS (SELECT 1 FROM public.students WHERE students.id = saving_schedules.student_id AND students.teacher_id = auth.uid()));
